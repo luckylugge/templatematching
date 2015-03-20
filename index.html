@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>Template Matching</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+    <!-- CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="content-wrapper">
+        <div>
+            <p>image:</p>
+            <img id="image" src="img/butterfly.jpg"/>
+        </div>
+
+        <div>
+            <p>template:</p>
+            <img id="template" src="img/template.jpg"/>
+        </div>
+
+        <div>
+            <p>result:</p>
+            <canvas id="difference" width="300" height="300"></canvas>
+            <p id="output"></p>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
